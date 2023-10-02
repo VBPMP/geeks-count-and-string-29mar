@@ -24,7 +24,7 @@ public:
                 }
             }
         }
-        return str.length() - lps[n - 1];
-        
+    
+       return str.length() - lps[n - 1];     
     }
 };
